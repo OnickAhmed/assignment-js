@@ -1,15 +1,9 @@
-
+// https://github.com/OnickAhmed/assignment-js
 //kilometerToMeter
 
 function kilometerToMeter(kilometer) {
-    if(typeof kilometer == Number)
-    {
-        if(kilometer > 0){
-            return kilometer*1000;
-        }
-        else{
-            return "Please enter a valid number";
-        }
+    if(kilometer > 0){
+        return kilometer*1000;
     }
     else{
         return "Please enter a valid number";
